@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Hola NIDIA
+                <img src="{{ url('/img/fachada.jpg') }}" alt="" class="img-thumbnail">
                 </div>
 
                 <div class="links">

@@ -21,9 +21,26 @@ Auth::routes([
 /* RUTAS PUBLICAS */
 Route::get('/','PublicController@index')->name('portal.home');
 
+Route::get('/sobre_el_maestro', function(){  //Ruta directa a vista
+  return view('portal.aboutMaster');
+});
+
+
+
+
 
 Route::get('/publicaciones','PublicController@indexPost')->name('portal.posts');
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+
+
+
+
+
+
 
 /* RUTAS PRIVADAS */
 Route::group(['middleware' => 'auth'], function () {\

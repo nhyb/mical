@@ -20,7 +20,7 @@
         @component('components.portal_navbar')
         @endcomponent
 
-        <main >
+        <main>
             @yield('content')
         </main>
         

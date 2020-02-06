@@ -20,6 +20,8 @@ Auth::routes([
 
 /* RUTAS PUBLICAS */
 Route::get('/','PublicController@index')->name('portal.home');
+
+
 Route::get('/publicaciones','PublicController@indexPost')->name('portal.posts');
 Route::get('/home', 'HomeController@index')->name('home');
 

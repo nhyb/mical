@@ -78,9 +78,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                <img src="{{ url('/img/fachada.jpg') }}" alt="" class="img-thumbnail">
-                </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>

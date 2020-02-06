@@ -8,7 +8,7 @@ class PublicController extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        return view('portal.index');
     }
 
     public function indexPost()
